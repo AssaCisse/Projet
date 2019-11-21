@@ -1,0 +1,63 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+section {
+    display: flex;
+/*    align-items: center;*/
+    flex-direction:column;
+/*    justify-content: center;*/
+    width: 100vw;
+/*    height: 85vh;*/
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.articles {
+    display: flex;
+  flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    width: 380px;
+    height: 180px;
+   
+}
+
+
